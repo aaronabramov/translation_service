@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    connection_pool (1.2.0)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
     multipart-post (1.2.0)
@@ -9,4 +10,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  connection_pool
   faraday
