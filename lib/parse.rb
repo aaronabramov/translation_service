@@ -2,6 +2,8 @@ require 'yaml'
 require 'uri'
 require 'open3'
 require 'csv'
+require 'fileutils'
+require 'pathname'
 
 class Parse
   BASE_URL = 'https://docs.google.com/spreadsheet/ccc'
